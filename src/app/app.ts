@@ -5,6 +5,7 @@ import { Footer } from "./components/footer/footer";
 import { CriarPensamento } from "./components/pensamentos/criar-pensamento/criar-pensamento";
 import { FormsModule } from '@angular/forms';
 import { ListarPensamento } from "./components/pensamentos/listar-pensamento/listar-pensamento";
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,8 @@ import { ListarPensamento } from "./components/pensamentos/listar-pensamento/lis
     Footer,
     CriarPensamento,
     FormsModule,
-    ListarPensamento
+    ListarPensamento,
+    HttpClientModule
 ],
   templateUrl: './app.html',
   styleUrl: './app.css'
